@@ -1,2 +1,34 @@
-# cs_taiwan_2022
-OSI
+windows作業系統提供許多工具與指令來服務使用者,底下哪些是windows作業系統所提供的預設工具(複選)? (A)電腦管理 (B)工作管理員 (C) mysql (D) netstat
+題組:
+小明使用的Windows作業系統遭受駭客攻擊
+請問他可以使用底下哪一個工具檢查網路連線?(A)ping (B)工作管理員 (C) mysql (D) netstat
+請問他可以使用底下哪一個工具檢查惡意程式執行時的process ID?(A)ping (B)工作管理員 (C) mysql (D) netstat
+當小明找到惡意程式執行時的process ID後,他可以使用哪一個程式終止惡意程式的執行?(A)tsakkill (B)jobkill (C)kill (D)terminate
+當使用netstat時,可以使用不同參數來顯示不同內容,若要顯示連線的程式PID時可載用哪一個參數?(A)n(B)a(C)o(D)p
+(A)(B)(C)(D)
+(A)(B)(C)(D)
+問答題
+簡述作業系統的功能
+簡述開機程序（boot process）
+OSI 模型與TCP/IP protocal suite
+OSI有七層?簡述其功能
+底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
+TCP/IP有那些層?寫出與OSI七層模型的對應!
+簡述底下應用層協定(英文全名與簡單功能說明):
+HTTP vs HTTPs
+HyperText Transfer Protocol 超文本傳輸協定
+HTTP是一種用於分佈式、協作式和超媒體訊息系統的應用層協定
+HTTP是全球資訊網的數據通信的基礎。
+DNS vs DNSsec
+telnet vs ssh
+ftp vs sftp
+smtp, pop3
+SNMP
+簡述底下傳輸層協定(英文全名與簡單功能說明):
+TCP vs UDP
+reliable(可靠的) vs unreliable(不可靠的)
+TCP three-way handshaking(三項交握)
+TCP syn flood attack
+簡述底下網路層協定(英文全名與簡單功能說明):
+IP
+ICMP
