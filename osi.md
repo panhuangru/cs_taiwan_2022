@@ -8,8 +8,37 @@ windows作業系統提供許多工具與指令來服務使用者,底下哪些是
 (A)(B)(C)(D)
 (A)(B)(C)(D)
 問答題
-簡述作業系統的功能
-簡述開機程序（boot process）
+**簡述作業系統的功能**(operating system functions)
+Following are some of important functions of an operating System.
+
+Memory Management 記憶體管理
+Processor Management 管理程式
+Device Management設定裝置
+File Management提供管理檔案功能
+Network Management 網路管理
+Security 監控安全性
+window updates: 更新系統軟體
+Control over system performance
+Coordination between other software and users – 協調工作
+Job accounting
+Error detecting aids
+Coordination between other software and users
+**開機程序（boot process）**
+This is the process of loading an opertaing system.It starts when computer turn on and end when operating system is loaded into memory
+**boot process steps**
+_1. The Startup
+switching the power ON. It supplies electricity to the main components like BIOS and processor.
+_2. BIOS: Power On Self Test_
+It is an initial test performed by the BIOS check on the input/output devices, computer’s main memory, disk drives, etc to find if it has any error
+_3. Loading of OS_
+OS is loaded into the main memory. OS starts working and executes all the initial files and instructions.
+_4. System Configuration_
+the drivers are loaded into the main memory. Drivers are programs that help in the functioning of the peripheral devices(TTHIET BI NGOAI VI CPU)
+_5. Loading System Utilities_
+System utilities are basic functioning programs, for example, volume control, antivirus, etc. In this step, system utilities are loaded into the memory
+_6. User Authentication_
+If any password has been set up in the computer system, the system checks for user authentication. Once the user enters the login Id and password correctly the system finally starts._
+載入作業系統的過程中會觸發一串步驟檢查動作
 OSI 模型與TCP/IP protocal suite
 OSI有七層?簡述其功能
 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
