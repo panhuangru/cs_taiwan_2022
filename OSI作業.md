@@ -40,7 +40,35 @@ _6. User Authentication_
 If any password has been set up in the computer system, the system checks for user authentication. Once the user enters the login Id and password correctly the system finally starts._
 載入作業系統的過程中會觸發一串步驟檢查動作
 OSI 模型與TCP/IP protocal suite
-OSI有七層?簡述其功能
+_**OSI有七層?簡述其功能**_
+**OSI(OPEN SYSTEM INTERCONNECTION)**
+_OSI HAS 7 LAYER
+LAYER (7) APPLICATION
+LAYER (6) PRESENTATION
+LAYER (5) SESSION
+LAYER (4) TRANSPORTION
+LAYER (3) NETWORK
+LAYER (2) DATA LINK
+LAYER (1) PHYSICAL_
+**7 LAYER FUNCTION**
+LAYER (7) APPLICATION IS THE ONLY LAYER WHERE USER CAN COMMUNICATE WITH THE DATA(send and receive data and present meaningful data to user.)
++PROVIDES USER INTERFACE AND SUPPORT SERVICES FOR NETWORK APPLICATION LIKE MAIL TRANSFER/ BROWSING INTERNET, REMOTE DESKOPT CONNECTION (EX: HTTP/HTTPS/SMTP/FTP/TELNET)Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).
+LAYER (6) PRESENTATION （use ssl)
+-RESPONSIBLE FOR TRANSLATION / COMPRESSION / ENCYPTION OR DECRYPTION
+ +Translation: vonvert data to machine understandable binary format (010101)
+ +Compression: reducing data size to transfer more quickly and ensure that no appreciable loss in quality 
+ +encrytipn or dycryption: encryption scamble data to unreadable form and decryption scramble data back to readable form
+LAYER (5) SESSION 
+ +Help setting up and managing conncetions enabling sending and rece
+iving data (control how to start and end session)remian open and functional while data is stranfering and close when it end
+ +AUTHENTICATe user's identity AND AUTHORIZe user to access the file
+ +dialog controller (allow system to comunicate in duplex or half duplex mode)
+ +help session management (manage which data packet belongs to which file)
+LAYER (4) TRANSPORTION
+ +take data form session layer devide data into segment to transfer to netwoek layer  and also reassembling the segments and turning it back into data that can be used by the session layer
+ +flow control: controls the amount of date being transmitted
+ +Eerror control: checking if data was receive fully and correctly 
+
 底下網路設備運作在哪一層? Hub, switch, router, L4-switch, proxy
 TCP/IP有那些層?寫出與OSI七層模型的對應!
 簡述底下應用層協定(英文全名與簡單功能說明):
