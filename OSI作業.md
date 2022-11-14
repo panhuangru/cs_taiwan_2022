@@ -31,7 +31,7 @@ Coordination between other software and users
 This is the process of loading an opertaing system.It starts when computer turn on and end when operating system is loaded into memory
 
 
-**boot process steps**
+## boot process steps
 _1. The Startup
 switching the power ON. It supplies electricity to the main components like BIOS and processor.
 _2. BIOS: Power On Self Test_
@@ -48,9 +48,9 @@ If any password has been set up in the computer system, the system checks for us
 
 
 ## OSI 模型與TCP/IP protocal suite
-**OSI有七層?簡述其功能**_
+**OSI有七層?簡述其功能**
 ## OSI(OPEN SYSTEM INTERCONNECTION)
-- OSI HAS 7 LAYER
+- OSI HAS 7 LAYER as below:
  - LAYER (7) APPLICATION
  - LAYER (6) PRESENTATION
  - LAYER (5) SESSION
@@ -138,11 +138,15 @@ If any password has been set up in the computer system, the system checks for us
 
 ## HTTP vs HTTPs
 * HTTP Stand for hyper text transfer protocol 
+* An HTTP is an application layer protocol
+* communication between different communication systems
 *  access the data on the World Wide Web
 - HTTP STANDARD is all imformation is sent in clear text in public internet so hacker can steal your information so this is the reason why https was developed
 *HTTPS stand for secure hyper t4ext transfer protocol 
 - this is http with security feature https encrypt(scramble） the data  from http
-
+- ensures the security of the data
+- HTTPS works under transport layer
+- The HTTPS protocol is secured due to the SSL protocol(secure sockets layer)
 
 
 
@@ -156,27 +160,33 @@ If any password has been set up in the computer system, the system checks for us
 
 
 ## telnet vs ssh
--telnet is use to acceSS remote serves
+-*telnet is use to acceSS remote serves
 -aslo use to mange and configure  other network device such as (router, switch)
 -check if port are close or open in serve
-=telnet is a command line tool and no graphica user interfaces
-=all command sent in clear text so no encryption
-- SSH is secure shell 
- -enable two computer to communicate and share data 
- -protect date from being attacked ssh does anything telfnet dose but it is a secure protocol
+-telnet is a command line tool and no graphica user interfaces
+-all command sent in clear text so no encryption
+-* SSH is secure shell 
+- enable two computer to communicate and share data 
+- protect date from being attacked
+- ssh does anything telfnet dose but it is a secure protocol
  
  
  
-**ftp vs sftp** is used to transfer file over the network and use tcp to transfer file
-- FTP stand for file transfer protocol is standrad protocol  to transfer file between computer and servers over a tcp/ip netwok
-- give the ability of website designer to uploade image, picture,.. it's not secure protocol
-- SFTP stand for secure file transfer protocol same as ftp but add secutrity layer data is encrypted 
+## ftp vs sftp is used to transfer file over the network and use tcp to transfer file
+- FTP stand for file transfer protocol is standrad protocol  to transfer data between computer and servers over a tcp/ip netwok
+- give the ability of website designer to uploade image, picture,..
+- it's not secure protocol
+- SFTP stand for secure file transfer protocol
+- same as ftp but add secutrity layer data is encrypted 
 - SFTP secure shell authenticates user and server
 
-**smtp, pop3**
-SMTP simple mail transfer protocol use for sending email authenticates and  directs  the transfer of email
-Pop3 stand for pop office protocol 3 use for retreiving email form email serve (download the eamil  to your device from a mail serve and only download in your inbox)
-
+## smtp, pop3
+- SMTP simple mail transfer protocol use for sending email authenticates and  directs  the transfer of email
+- widely used TCP protocol for email sending
+- SMTP is a push protocol
+-Pop3 stand for pop office protocol 3 use for retreiving email form email serve (download the eamil  to your device from a mail serve and only download in your inbox)
+-POP3 transfers emails from the server to the client, allowing you to read them even if you are not connected to the internet
+POP3 is known as a pop protocol
 
 
 **SNMP**
@@ -187,7 +197,8 @@ Pop3 stand for pop office protocol 3 use for retreiving email form email serve (
 
 
 **TCP vs UDP**
-TCP stand for transmission control protocol check for errors and to guarantee the deliverey of data TCP RELIABLE
+-TCP stand for transmission control protocol
+-check for errors and to guarantee the deliverey of data TCP RELIABLE
 UDP stand for use datagram protocol is also use for sending and recieving data but its not guarantee the delivery of data UDP is faster than TCP UDP UNRELIABLE
 
 
