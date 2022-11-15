@@ -49,7 +49,7 @@ If any password has been set up in the computer system, the system checks for us
 
 ## OSI 模型與TCP/IP protocal suite
 **OSI有七層?簡述其功能**
-## OSI(OPEN SYSTEM INTERCONNECTION)
+## OSI(OPEN SYSTEM INTERCONNECTION)describes seven layers that computer systems use to communicate over a network
 - OSI HAS 7 LAYER as below:
  - LAYER (7) APPLICATION
  - LAYER (6) PRESENTATION
@@ -61,23 +61,25 @@ If any password has been set up in the computer system, the system checks for us
 **7 LAYER FUNCTION
 ## LAYER (7) APPLICATION:
  - IS THE ONLY LAYER WHERE USER CAN COMMUNICATE WITH THE DATA(send and receive data and present meaningful data to user.)
- -PROVIDES USER INTERFACE AND SUPPORT SERVICES FOR NETWORK APPLICATION(EX:Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).
+ - PROVIDES USER INTERFACE AND SUPPORT SERVICES FOR NETWORK APPLICATION(EX:Hypertext Transfer Protocol (HTTP), File Transfer Protocol (FTP), Post Office Protocol (POP), Simple Mail Transfer Protocol (SMTP), and Domain Name System (DNS).
 ## LAYER (6) PRESENTATION 
  - RESPONSIBLE FOR TRANSLATION / COMPRESSION / ENCYPTION OR DECRYPTION
   +Translation: vonvert data to machine understandable format 
   +Compression: reducing data size to transfer more quickly and ensure that no appreciable loss in quality 
   +encrytipn or dycryption: encryption scamble data to unreadable form and decryption scramble data back to readable form
+  - presentation protocol:Apple Filing Protocol (AFP)/NetWare Core Protocol (NCP)/Secure Socket Layer (SSL),....
 ## LAYER (5) SESSION 
  +Help setting up and managing conncetions enabling sending and receiving data 
  +Control how to start and end session: remain open and functional while data is stranfering and close when it end
  +Authenticate user's identity and authourize user to access the file
  +dialog controller: allow system to comunicate in duplex or half duplex mode
  +session management: manage which data packet belongs to which file
+ protocol:SMPP, Short Message Peer-to-Peer/PPTP, Point-to-Point Tunneling Protocol,...
 ## LAYER (4) TRANSPORT
  +segmentation: break data from r into segment 
  +flow control: controls the amount of date being transmitted
  +Error control: checking if data was receive fully and correctly
- +one of the most common ex of transport layer is TCP and UDP
+ +one of the most common example of transport layer is TCP and UDP
  ## LAYER (3) NETWORK
  +breaking up segments into network packets, and reassembling the packets on the receiving end.
  +routing:chose the best path to delivery from source to destination
@@ -140,12 +142,11 @@ If any password has been set up in the computer system, the system checks for us
 * HTTP Stand for hyper text transfer protocol 
 * An HTTP is an application layer protocol
 * communication between different communication systems
-*  access the data on the World Wide Web
+* use for transferring data over a network.
 - HTTP STANDARD is all imformation is sent in clear text in public internet so hacker can steal your information so this is the reason why https was developed
 *HTTPS stand for secure hyper t4ext transfer protocol 
 - this is http with security feature https encrypt(scramble） the data  from http
 - ensures the security of the data
-- HTTPS works under transport layer
 - The HTTPS protocol is secured due to the SSL protocol(secure sockets layer)
 
 
@@ -153,15 +154,16 @@ If any password has been set up in the computer system, the system checks for us
 ## DNS vs DNSsec**
 - DNS is domain name system 
 - DNS responsible for stranslating text host name into ip address
+- DNS is not secure
 - DNSSEC is DNS Security Extensions 
-- authentication and integrity of dns
+- authentication: protect users from redirection to fraudulent websites and unintended addresses.
 
 
 
 
 ## telnet vs ssh
 -*telnet is use to acceSS remote serves
--aslo use to mange and configure  other network device such as (router, switch)
+-aslo use to manage and configure  other network device such as (router, switch)
 -check if port are close or open in serve
 -telnet is a command line tool and no graphica user interfaces
 -all command sent in clear text so no encryption
@@ -223,6 +225,7 @@ the attacker sends repeated SYN packets to every port on the targeted server, of
 **IP** 
 IP stand for internet protocol 
 -routing and addressing packets of data so that they can travel across networks and arrive at the correct destination
+-allowing the sending computer to decide which path of packet to delivery
 
 **ICMP**
 -ICMP stand for internet control message protocol use to diagnose network communication issues.
