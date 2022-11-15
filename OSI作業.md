@@ -12,7 +12,7 @@ windows作業系統提供許多工具與指令來服務使用者,底下哪些是
 Following are some of important functions of an operating System.
 
 Memory Management 記憶體管理
-Processor Management 管理程式
+Process Management 管理程式
 Device Management設定裝置
 File Management提供管理檔案功能
 Network Management 網路管理
@@ -183,7 +183,7 @@ If any password has been set up in the computer system, the system checks for us
 - SFTP secure shell authenticates user and server
 
 ## smtp, pop3
-- SMTP simple mail transfer protocol use for sending email authenticates and  directs  the transfer of email
+- SMTP simple mail transfer protocol use for sending email. authenticates and  directs  the transfer of email
 - widely used TCP protocol for email sending
 - SMTP is a push protocol
 -Pop3 stand for pop office protocol 3 use for retreiving email form email serve (download the eamil  to your device from a mail serve and only download in your inbox)
@@ -201,7 +201,7 @@ POP3 is known as a pop protocol
 **TCP vs UDP**
 -TCP stand for transmission control protocol
 -check for errors and to guarantee the deliverey of data TCP RELIABLE
-UDP stand for use datagram protocol is also use for sending and recieving data but its not guarantee the delivery of data UDP is faster than TCP UDP UNRELIABLE
+UDP stand for useR datagram protocol is also use for sending and recieving data but its not guarantee the delivery of data UDP is faster than TCP UDP UNRELIABLE
 
 
 
