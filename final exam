@@ -1,7 +1,10 @@
-3-2-5 負數的表示法 -38
+3-2-5 負數的表示法 -38 Representation of Negative Binary Numbers
 帶符號大小（signed-magnitude）表示法
+The binary numbers having their MSB 0 are called “Positive signed binary numbers” and 1 for negative binary numbers
 
-又稱最高位元表示法
+又稱最高位元表示法 What is most significant bit (MSB)?
+The most significant bit (MSB) is the bit in a multiple-bit binary number with the largest value.
+This is usually the bit farthest to the left, or the bit transmitted first in a sequence use to 
 在最左邊留一個位元（也就是最高位元）來表示正負號（0 代表正，1 代表負），因此這個位元又叫做符號位元(sign bit)。
 假設數值的固定長度是 n 個位元，扣除 1 個符號位元，還剩下 n − 1 個位元，因此可表達的正數範圍從 +0 到 +(2n−1 − 1 )，負數範圍從 –(2n−1 − 1 ) 到 −0
 最大的缺點: 0 有兩種不同的表示法，+0（00000000）和 −0 （10000000）。
